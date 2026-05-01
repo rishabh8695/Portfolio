@@ -15,8 +15,8 @@ import {
       tags: ["Python", "Pandas", "Plotly", "Streamlit"],
       status: "Featured",
       links: {
-        github: "#",
-        view: "#"
+        github: "https://github.com/rishabh8695/IPL---Dashboard",
+        view: "https://ipl-dashboard-rishabh.streamlit.app/"
       }
     },
     {
@@ -26,8 +26,8 @@ import {
       tags: ["Python", "Pandas", "Numpy"],
       status: "In Progress",
       links: {
-        github: "#",
-        view: "#"
+        github: "https://github.com/rishabh8695/project---netflix",
+        view: "https://github.com/rishabh8695/project---netflix"
       }
     },
     {
@@ -35,10 +35,10 @@ import {
       title: "Churn Prediction Model",
       description: "Machine learning model to predict customer churn using classification algorithms like Random Forest and XGBoost.",
       tags: ["Scikit-learn", "XGBoost", "Jupyter", "Python"],
-      status: "In Progress",
+      status: "Featured",
       links: {
-        github: "#",
-        view: "#"
+        github: "https://github.com/rishabh8695/Customer-Churn-Predication",
+        view: "https://customer-churn-predication-rishabh.streamlit.app/"
       }
     },
     {

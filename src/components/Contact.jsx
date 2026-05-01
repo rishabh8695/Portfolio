@@ -104,7 +104,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="text-slate-900 dark:text-white font-bold mb-1">Location</h4>
-                <p className="text-slate-500 dark:text-slate-400 text-sm">B.Tech CSE Student • India</p>
+                <p className="text-slate-500 dark:text-slate-400 text-sm">Moradabad • India</p>
               </div>
             </div>
 
@@ -114,7 +114,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="text-slate-900 dark:text-white font-bold mb-1">Response Time</h4>
-                <p className="text-slate-500 dark:text-slate-400 text-sm">Usually within 24 hours</p>
+                <p className="text-slate-500 dark:text-slate-400 text-sm">Within 24 hours</p>
               </div>
             </div>
           </div>
@@ -124,10 +124,10 @@ const Contact = () => {
               Connect with me 👋
             </h4>
             <div className="flex items-center justify-center gap-4">
-              <a href="https://github.com/rishabh8695" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-center text-pink-500 hover:bg-slate-700 hover:-translate-y-1 transition-all">
+              <a href="https://github.com/rishabh8695" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-center text-slate-900 dark:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-700 hover:-translate-y-1 transition-all">
                 <FaGithub size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/rishabh-kumar-gupta-56b004326" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-slate-700 hover:-translate-y-1 transition-all">
+              <a href="https://www.linkedin.com/in/rishabh-kumar-gupta-56b004326" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-center text-blue-500 dark:text-blue-300 hover:bg-slate-100 dark:hover:bg-slate-700 hover:-translate-y-1 transition-all">
                 <FaLinkedin size={20} />
               </a>
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rishabhkumargupta9935@gmail.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-center text-pink-300 hover:bg-slate-700 hover:-translate-y-1 transition-all">

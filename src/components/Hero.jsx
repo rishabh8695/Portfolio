@@ -30,11 +30,11 @@ const Hero = () => {
             <Mail size={18} />
             Get In Touch
           </a>
-          <a href="https://github.com/rishabh8695" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-8 py-3.5 rounded-full bg-white dark:bg-surface/50 hover:bg-white dark:bg-surface border border-slate-200 dark:border-white/5 hover:border-slate-300 dark:border-white/10 backdrop-blur-sm transition-all text-slate-700 dark:text-slate-200 font-medium">
-            <FaGithub size={18} /> GitHub
+          <a href="https://github.com/rishabh8695" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-8 py-3.5 rounded-full bg-white dark:bg-slate-900/70 hover:bg-slate-100 dark:hover:bg-slate-800/80 border border-slate-200 dark:border-slate-700 backdrop-blur-sm transition-all text-slate-700 dark:text-slate-100 font-medium">
+            <FaGithub size={18} className="text-slate-900 dark:text-slate-100" /> GitHub
           </a>
-          <a href="https://www.linkedin.com/in/rishabh-kumar-gupta-56b004326" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-8 py-3.5 rounded-full bg-white dark:bg-surface/50 hover:bg-white dark:bg-surface border border-slate-200 dark:border-white/5 hover:border-slate-300 dark:border-white/10 backdrop-blur-sm transition-all text-slate-700 dark:text-slate-200 font-medium">
-            <FaLinkedin size={18} className="text-blue-500" /> LinkedIn
+          <a href="https://www.linkedin.com/in/rishabh-kumar-gupta-56b004326" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-8 py-3.5 rounded-full bg-white dark:bg-slate-900/70 hover:bg-slate-100 dark:hover:bg-slate-800/80 border border-slate-200 dark:border-slate-700 backdrop-blur-sm transition-all text-slate-700 dark:text-slate-100 font-medium">
+            <FaLinkedin size={18} className="text-blue-500 dark:text-blue-300" /> LinkedIn
           </a>
         </div>
       </div>
@@ -42,7 +42,7 @@ const Hero = () => {
       <div className="relative w-64 h-64 md:w-[400px] md:h-[400px] shrink-0 z-10 group">
         <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500 to-emerald-500 blur-3xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
         <img
-          src="/avatar_rose.png"
+          src="profile.png"
           alt="Rishabh Gupta"
           className="w-full h-full object-cover rounded-full border border-slate-300 dark:border-white/10 shadow-2xl relative z-10 p-2 bg-slate-50 dark:bg-background/50 backdrop-blur-md"
         />

@@ -45,17 +45,17 @@ const Projects = () => {
               
               <div className="flex items-center gap-6 mt-auto">
                 {project.links.github && (
-                  <a href={project.links.github} className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white flex items-center gap-2 group/btn">
+                  <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white flex items-center gap-2 group/btn">
                     <span className="bg-white dark:bg-slate-800/80 p-1.5 rounded-full px-5 border border-slate-200 dark:border-slate-700/50 group-hover/btn:border-slate-400 dark:group-hover/btn:border-slate-500/50 group-hover/btn:bg-slate-100 dark:group-hover/btn:bg-slate-700 transition-all backdrop-blur-sm">GitHub</span>
                   </a>
                 )}
                 {project.links.view && (
-                  <a href={project.links.view} className="text-sm font-medium text-blue-400 hover:text-blue-300 flex items-center gap-1 group/link">
+                  <a href={project.links.view} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-blue-400 hover:text-blue-300 flex items-center gap-1 group/link">
                     View Project <span className="transform group-hover/link:translate-x-1 transition-transform">→</span>
                   </a>
                 )}
                 {project.links.preview && (
-                  <a href={project.links.preview} className="text-sm font-medium text-blue-400 hover:text-blue-300 flex items-center gap-1 group/link">
+                  <a href={project.links.preview} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-blue-400 hover:text-blue-300 flex items-center gap-1 group/link">
                     Preview <span className="transform group-hover/link:translate-x-1 transition-transform">→</span>
                   </a>
                 )}
