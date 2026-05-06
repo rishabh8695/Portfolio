@@ -13,11 +13,11 @@ const Hero = () => {
           Hi! I am <br className="hidden md:block" /><span className="bg-clip-text text-transparent bg-gradient-to-r from-slate-800 to-slate-500 dark:from-white dark:to-slate-400">Rishabh Gupta</span>
         </h1>
         <h2 className="text-2xl md:text-3xl text-gradient font-semibold mb-6 tracking-wide">
-          Aspiring Data Scientist
+          Data Analyst & ML Enthusiast  
         </h2>
         <p className="text-slate-500 dark:text-slate-400 text-lg max-w-xl leading-relaxed mb-10 font-light">
           Second-year B.Tech CSE student passionate about data science, turning
-          raw data into actionable insights using <strong className="text-slate-700 dark:text-slate-200 font-medium">Python, Pandas, and machine learning.</strong>
+          raw data into actionable insights using <strong className="text-slate-700 dark:text-slate-200 font-medium">PostgreSQL , Python, Pandas, and machine learning.</strong>
         </p>
 
         <div className="flex flex-wrap items-center gap-4">
@@ -42,7 +42,7 @@ const Hero = () => {
       <div className="relative w-64 h-64 md:w-[400px] md:h-[400px] shrink-0 z-10 group">
         <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500 to-emerald-500 blur-3xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
         <img
-          src="profile.png"
+          src="/profile.png"
           alt="Rishabh Gupta"
           className="w-full h-full object-cover rounded-full border border-slate-300 dark:border-white/10 shadow-2xl relative z-10 p-2 bg-slate-50 dark:bg-background/50 backdrop-blur-md"
         />

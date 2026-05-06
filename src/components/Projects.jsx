@@ -31,8 +31,8 @@ const Projects = () => {
               </div>
               
               <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-blue-400 transition-colors">{project.title}</h3>
-              <p className="text-slate-500 dark:text-slate-400 text-sm mb-6 leading-relaxed line-clamp-3 min-h-[60px] font-light">
-                {project.description}
+              <p className="text-slate-500 dark:text-slate-400 text-base mb-6 leading-relaxed line-clamp-3 min-h-[60px] font-light">
+              {project.description}
               </p>
               
               <div className="flex flex-wrap gap-2 mb-8">
